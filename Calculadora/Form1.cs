@@ -212,6 +212,30 @@ namespace Calculadora
 
         private void button1_Click(object sender, EventArgs e)
         {
+            if (txtResultado.Text != "")
+            {
+                valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
+                txtResultado.Text = "";
+                operacao = "FATORIAL";
+                lblOperacao.Text = "n!";
+                if (operacao == "FATORIAL")
+                {
+                    double resultado = 1;
+                    resultadosqrt = Convert.ToDouble(valor1);
+                    while (valor1 != 1)
+                    {
+                        resultado = resultado * resultadosqrt;
+                        resultadosqrt = resultadosqrt - 1;
+                    }
+                    txtResultado.Text = Convert.ToString(resultado);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Informe um valor para efetuar a divisão! ", "Atenção!",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Information);
+            }
 
         }
 
@@ -284,6 +308,11 @@ namespace Calculadora
                  MessageBoxButtons.OK,
                  MessageBoxIcon.Information);
             }
+        }
+
+        private void botaopi_Click(object sender, EventArgs e)
+        {
+            txtResultado.Text = "3,14";
         }
 
         private void botaoZero_Click(object sender, EventArgs e)

@@ -308,6 +308,7 @@ namespace Calculadora
             this.botaopi.TabIndex = 25;
             this.botaopi.Text = "π";
             this.botaopi.UseVisualStyleBackColor = true;
+            this.botaopi.Click += new System.EventHandler(this.botaopi_Click);
             // 
             // pictureBox1
             // 
