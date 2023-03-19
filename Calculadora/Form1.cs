@@ -15,6 +15,7 @@ namespace Calculadora
     {
         decimal valor1 = 0, valor2 = 0;
         double resultadosqrt = 0;
+        double resultadofator = 0;
         string operacao = "";
 
         public Form1()
@@ -221,11 +222,11 @@ namespace Calculadora
                 if (operacao == "FATORIAL")
                 {
                     double resultado = 1;
-                    resultadosqrt = Convert.ToDouble(valor1);
-                    while (valor1 != 1)
+                    resultadofator = Convert.ToDouble(valor1);
+                    while (resultadofator != 1)
                     {
-                        resultado = resultado * resultadosqrt;
-                        resultadosqrt = resultadosqrt - 1;
+                        resultado = resultado * resultadofator;
+                        resultadofator = resultadofator - 1;
                     }
                     txtResultado.Text = Convert.ToString(resultado);
                 }
