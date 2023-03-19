@@ -223,10 +223,17 @@ namespace Calculadora
                 {
                     double resultado = 1;
                     resultadofator = Convert.ToDouble(valor1);
-                    while (resultadofator != 1)
+                    if (resultadofator == 0)
                     {
-                        resultado = resultado * resultadofator;
-                        resultadofator = resultadofator - 1;
+                        txtResultado.Text = Convert.ToString("1");
+                    }
+                    else
+                    {
+                        while (resultadofator != 1)
+                        {
+                            resultado = resultado * resultadofator;
+                            resultadofator = resultadofator - 1;
+                        }
                     }
                     txtResultado.Text = Convert.ToString(resultado);
                 }
