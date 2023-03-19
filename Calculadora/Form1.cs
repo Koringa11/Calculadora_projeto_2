@@ -14,6 +14,7 @@ namespace Calculadora
     public partial class Form1 : Form
     {
         decimal valor1 = 0, valor2 = 0;
+        double resultadosqrt = 0;
         string operacao = "";
 
         public Form1()
@@ -203,7 +204,7 @@ namespace Calculadora
             {
                 e.Handled = true;
 
-                MessageBox.Show("Não é permitido LETRAS! ", "Atenção!",
+                MessageBox.Show("Insira apenas números! ", "Atenção!",
                  MessageBoxButtons.OK,
                  MessageBoxIcon.Error);
             }
@@ -235,7 +236,25 @@ namespace Calculadora
 
         private void botaosqrt_Click(object sender, EventArgs e)
         {
+            if (txtResultado.Text != "")
+            {
+                valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
+                txtResultado.Text = "";
+                operacao = "SQRT";
+                lblOperacao.Text = "√";
+                if (operacao == "SQRT")
+                    resultadosqrt = Convert.ToDouble(valor1);
+                    resultadosqrt = Convert.ToSingle(Math.Sqrt(resultadosqrt));
+                    txtResultado.Text = Convert.ToString(resultadosqrt);
 
+
+            }
+            else
+            {
+                MessageBox.Show("Informe um valor válido! ", "Atenção!",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Information);
+            }
         }
 
         private void botaoZero_Click(object sender, EventArgs e)
