@@ -257,6 +257,35 @@ namespace Calculadora
             }
         }
 
+        private void botao1divididoporx_Click(object sender, EventArgs e)
+        {
+            if (txtResultado.Text != "")
+            {
+                valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
+                txtResultado.Text = "";
+                operacao = "DIVIDO1";
+                lblOperacao.Text = "1/x";
+                if (operacao == "DIVIDO1")
+                    if (valor1 == 0)
+                        {
+                            MessageBox.Show("Insira um número maior que zero!", "Atenção!",
+                            MessageBoxButtons.OK,
+                            MessageBoxIcon.Error);
+                            txtResultado.Text = "";
+                        }
+                else
+                {
+                    txtResultado.Text = Convert.ToString(1 / valor1);
+                }
+            }
+            else
+            {
+                MessageBox.Show("Informe um valor válido! ", "Atenção!",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Information);
+            }
+        }
+
         private void botaoZero_Click(object sender, EventArgs e)
         {
             txtResultado.Text += "0";

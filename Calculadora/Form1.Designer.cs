@@ -297,6 +297,7 @@ namespace Calculadora
             this.botao1divididoporx.TabIndex = 24;
             this.botao1divididoporx.Text = "1/x";
             this.botao1divididoporx.UseVisualStyleBackColor = true;
+            this.botao1divididoporx.Click += new System.EventHandler(this.botao1divididoporx_Click);
             // 
             // botaopi
             // 
