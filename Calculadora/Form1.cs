@@ -73,8 +73,6 @@ namespace Calculadora
 
         private void botaoIgual_Click(object sender, EventArgs e)
         {
-            // O metodo "CultureInfo.InvariantCulture" transforma o texto com pontuação
-            // em deciamal com a pontuação correta.
              
             valor2 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
             if (operacao == "SOMA")
@@ -93,7 +91,7 @@ namespace Calculadora
             {
                 if (txtResultado.Text == "0")
                 {
-                    MessageBox.Show("Insira um valor diferente de ZERO!", "Atenção!",
+                    MessageBox.Show("Insira um número maior que zero!", "Atenção!",
                       MessageBoxButtons.OK,
                       MessageBoxIcon.Error);
                     txtResultado.Text = "";
@@ -209,6 +207,35 @@ namespace Calculadora
                  MessageBoxButtons.OK,
                  MessageBoxIcon.Error);
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (txtResultado.Text != "")
+            {
+                valor1 = decimal.Parse(txtResultado.Text, CultureInfo.InvariantCulture);
+                txtResultado.Text = "";
+                operacao = "ELEVADO2";
+                lblOperacao.Text = "x^2";
+                if (operacao == "ELEVADO2")
+                    txtResultado.Text = Convert.ToString(valor1 * 2);
+            }
+            else
+            {
+                MessageBox.Show("Informe um valor válido! ", "Atenção!",
+                 MessageBoxButtons.OK,
+                 MessageBoxIcon.Information);
+            }
+        }
+
+        private void botaosqrt_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void botaoZero_Click(object sender, EventArgs e)
