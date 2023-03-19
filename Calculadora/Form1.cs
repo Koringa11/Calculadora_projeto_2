@@ -323,6 +323,11 @@ namespace Calculadora
             txtResultado.Text = "3,14";
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void botaoZero_Click(object sender, EventArgs e)
         {
             txtResultado.Text += "0";

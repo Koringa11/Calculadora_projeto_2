@@ -73,6 +73,26 @@ namespace Calculadora.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cwgf {
+            get {
+                object obj = ResourceManager.GetObject("Cwgf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap maths {
+            get {
+                object obj = ResourceManager.GetObject("maths", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pi {
             get {
                 object obj = ResourceManager.GetObject("pi", resourceCulture);
@@ -103,29 +123,9 @@ namespace Calculadora.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Sem_título {
+        internal static System.Drawing.Bitmap png_clipart_mathematical_formula_mathematical_formula_formula {
             get {
-                object obj = ResourceManager.GetObject("Sem título", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Sem_título1 {
-            get {
-                object obj = ResourceManager.GetObject("Sem título1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Sem_título2 {
-            get {
-                object obj = ResourceManager.GetObject("Sem título2", resourceCulture);
+                object obj = ResourceManager.GetObject("png-clipart-mathematical-formula-mathematical-formula-formula", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

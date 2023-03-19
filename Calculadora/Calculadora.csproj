@@ -101,5 +101,14 @@
   <ItemGroup>
     <None Include="Resources\piwadaw-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-mathematical-formula-mathematical-formula-formula.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cwgf.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -29,7 +29,6 @@ namespace Calculadora
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.txtResultado = new System.Windows.Forms.TextBox();
             this.lblOperacao = new System.Windows.Forms.Label();
             this.botao7 = new System.Windows.Forms.Button();
@@ -80,7 +79,7 @@ namespace Calculadora
             // 
             // botao7
             // 
-            this.botao7.Location = new System.Drawing.Point(13, 132);
+            this.botao7.Location = new System.Drawing.Point(15, 120);
             this.botao7.Name = "botao7";
             this.botao7.Size = new System.Drawing.Size(43, 32);
             this.botao7.TabIndex = 3;
@@ -90,7 +89,7 @@ namespace Calculadora
             // 
             // botao8
             // 
-            this.botao8.Location = new System.Drawing.Point(62, 132);
+            this.botao8.Location = new System.Drawing.Point(65, 120);
             this.botao8.Name = "botao8";
             this.botao8.Size = new System.Drawing.Size(43, 32);
             this.botao8.TabIndex = 4;
@@ -100,7 +99,7 @@ namespace Calculadora
             // 
             // botao9
             // 
-            this.botao9.Location = new System.Drawing.Point(111, 132);
+            this.botao9.Location = new System.Drawing.Point(114, 120);
             this.botao9.Name = "botao9";
             this.botao9.Size = new System.Drawing.Size(43, 32);
             this.botao9.TabIndex = 5;
@@ -110,7 +109,7 @@ namespace Calculadora
             // 
             // boatoDivisao
             // 
-            this.boatoDivisao.Location = new System.Drawing.Point(160, 132);
+            this.boatoDivisao.Location = new System.Drawing.Point(163, 120);
             this.boatoDivisao.Name = "boatoDivisao";
             this.boatoDivisao.Size = new System.Drawing.Size(43, 32);
             this.boatoDivisao.TabIndex = 6;
@@ -120,7 +119,7 @@ namespace Calculadora
             // 
             // botaoApagar
             // 
-            this.botaoApagar.Location = new System.Drawing.Point(209, 132);
+            this.botaoApagar.Location = new System.Drawing.Point(213, 120);
             this.botaoApagar.Name = "botaoApagar";
             this.botaoApagar.Size = new System.Drawing.Size(44, 32);
             this.botaoApagar.TabIndex = 7;
@@ -130,7 +129,7 @@ namespace Calculadora
             // 
             // botao4
             // 
-            this.botao4.Location = new System.Drawing.Point(13, 179);
+            this.botao4.Location = new System.Drawing.Point(16, 158);
             this.botao4.Name = "botao4";
             this.botao4.Size = new System.Drawing.Size(43, 32);
             this.botao4.TabIndex = 8;
@@ -140,7 +139,7 @@ namespace Calculadora
             // 
             // botao5
             // 
-            this.botao5.Location = new System.Drawing.Point(62, 179);
+            this.botao5.Location = new System.Drawing.Point(65, 158);
             this.botao5.Name = "botao5";
             this.botao5.Size = new System.Drawing.Size(43, 32);
             this.botao5.TabIndex = 9;
@@ -150,7 +149,7 @@ namespace Calculadora
             // 
             // botao6
             // 
-            this.botao6.Location = new System.Drawing.Point(111, 179);
+            this.botao6.Location = new System.Drawing.Point(114, 158);
             this.botao6.Name = "botao6";
             this.botao6.Size = new System.Drawing.Size(43, 32);
             this.botao6.TabIndex = 10;
@@ -160,7 +159,7 @@ namespace Calculadora
             // 
             // botaoMultiplicacao
             // 
-            this.botaoMultiplicacao.Location = new System.Drawing.Point(160, 179);
+            this.botaoMultiplicacao.Location = new System.Drawing.Point(163, 158);
             this.botaoMultiplicacao.Name = "botaoMultiplicacao";
             this.botaoMultiplicacao.Size = new System.Drawing.Size(43, 32);
             this.botaoMultiplicacao.TabIndex = 11;
@@ -170,7 +169,7 @@ namespace Calculadora
             // 
             // botaoApagaTudo
             // 
-            this.botaoApagaTudo.Location = new System.Drawing.Point(209, 179);
+            this.botaoApagaTudo.Location = new System.Drawing.Point(212, 158);
             this.botaoApagaTudo.Name = "botaoApagaTudo";
             this.botaoApagaTudo.Size = new System.Drawing.Size(43, 32);
             this.botaoApagaTudo.TabIndex = 12;
@@ -180,7 +179,7 @@ namespace Calculadora
             // 
             // botao1
             // 
-            this.botao1.Location = new System.Drawing.Point(13, 217);
+            this.botao1.Location = new System.Drawing.Point(16, 196);
             this.botao1.Name = "botao1";
             this.botao1.Size = new System.Drawing.Size(43, 32);
             this.botao1.TabIndex = 13;
@@ -190,7 +189,7 @@ namespace Calculadora
             // 
             // botao2
             // 
-            this.botao2.Location = new System.Drawing.Point(62, 217);
+            this.botao2.Location = new System.Drawing.Point(65, 196);
             this.botao2.Name = "botao2";
             this.botao2.Size = new System.Drawing.Size(43, 32);
             this.botao2.TabIndex = 14;
@@ -200,7 +199,7 @@ namespace Calculadora
             // 
             // boato3
             // 
-            this.boato3.Location = new System.Drawing.Point(111, 217);
+            this.boato3.Location = new System.Drawing.Point(114, 196);
             this.boato3.Name = "boato3";
             this.boato3.Size = new System.Drawing.Size(43, 32);
             this.boato3.TabIndex = 15;
@@ -210,7 +209,7 @@ namespace Calculadora
             // 
             // botaoSubtracao
             // 
-            this.botaoSubtracao.Location = new System.Drawing.Point(161, 217);
+            this.botaoSubtracao.Location = new System.Drawing.Point(164, 196);
             this.botaoSubtracao.Name = "botaoSubtracao";
             this.botaoSubtracao.Size = new System.Drawing.Size(43, 32);
             this.botaoSubtracao.TabIndex = 16;
@@ -220,7 +219,7 @@ namespace Calculadora
             // 
             // botaoIgual
             // 
-            this.botaoIgual.Location = new System.Drawing.Point(210, 217);
+            this.botaoIgual.Location = new System.Drawing.Point(213, 196);
             this.botaoIgual.Name = "botaoIgual";
             this.botaoIgual.Size = new System.Drawing.Size(43, 70);
             this.botaoIgual.TabIndex = 17;
@@ -230,7 +229,7 @@ namespace Calculadora
             // 
             // botaoZero
             // 
-            this.botaoZero.Location = new System.Drawing.Point(13, 255);
+            this.botaoZero.Location = new System.Drawing.Point(16, 234);
             this.botaoZero.Name = "botaoZero";
             this.botaoZero.Size = new System.Drawing.Size(92, 32);
             this.botaoZero.TabIndex = 18;
@@ -240,7 +239,7 @@ namespace Calculadora
             // 
             // botaoPonto
             // 
-            this.botaoPonto.Location = new System.Drawing.Point(111, 255);
+            this.botaoPonto.Location = new System.Drawing.Point(114, 234);
             this.botaoPonto.Name = "botaoPonto";
             this.botaoPonto.Size = new System.Drawing.Size(43, 32);
             this.botaoPonto.TabIndex = 19;
@@ -250,7 +249,7 @@ namespace Calculadora
             // 
             // botaoAdicao
             // 
-            this.botaoAdicao.Location = new System.Drawing.Point(161, 255);
+            this.botaoAdicao.Location = new System.Drawing.Point(164, 234);
             this.botaoAdicao.Name = "botaoAdicao";
             this.botaoAdicao.Size = new System.Drawing.Size(43, 32);
             this.botaoAdicao.TabIndex = 20;
@@ -261,7 +260,7 @@ namespace Calculadora
             // botaofatorial
             // 
             this.botaofatorial.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaofatorial.Location = new System.Drawing.Point(13, 94);
+            this.botaofatorial.Location = new System.Drawing.Point(16, 82);
             this.botaofatorial.Name = "botaofatorial";
             this.botaofatorial.Size = new System.Drawing.Size(43, 32);
             this.botaofatorial.TabIndex = 21;
@@ -271,7 +270,7 @@ namespace Calculadora
             // 
             // botaoelevado2
             // 
-            this.botaoelevado2.Location = new System.Drawing.Point(62, 94);
+            this.botaoelevado2.Location = new System.Drawing.Point(65, 82);
             this.botaoelevado2.Name = "botaoelevado2";
             this.botaoelevado2.Size = new System.Drawing.Size(43, 32);
             this.botaoelevado2.TabIndex = 22;
@@ -281,7 +280,7 @@ namespace Calculadora
             // 
             // botaosqrt
             // 
-            this.botaosqrt.Location = new System.Drawing.Point(111, 94);
+            this.botaosqrt.Location = new System.Drawing.Point(114, 82);
             this.botaosqrt.Name = "botaosqrt";
             this.botaosqrt.Size = new System.Drawing.Size(43, 32);
             this.botaosqrt.TabIndex = 23;
@@ -291,7 +290,7 @@ namespace Calculadora
             // 
             // botao1divididoporx
             // 
-            this.botao1divididoporx.Location = new System.Drawing.Point(160, 94);
+            this.botao1divididoporx.Location = new System.Drawing.Point(163, 82);
             this.botao1divididoporx.Name = "botao1divididoporx";
             this.botao1divididoporx.Size = new System.Drawing.Size(43, 32);
             this.botao1divididoporx.TabIndex = 24;
@@ -302,7 +301,7 @@ namespace Calculadora
             // botaopi
             // 
             this.botaopi.Font = new System.Drawing.Font("Calisto MT", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.botaopi.Location = new System.Drawing.Point(210, 94);
+            this.botaopi.Location = new System.Drawing.Point(212, 82);
             this.botaopi.Name = "botaopi";
             this.botaopi.Size = new System.Drawing.Size(43, 32);
             this.botaopi.TabIndex = 25;
@@ -312,10 +311,10 @@ namespace Calculadora
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(-18, 3);
+            this.pictureBox1.Image = global::Calculadora.Properties.Resources.Cwgf;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(297, 306);
+            this.pictureBox1.Size = new System.Drawing.Size(275, 305);
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -324,7 +323,7 @@ namespace Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(275, 308);
+            this.ClientSize = new System.Drawing.Size(270, 298);
             this.Controls.Add(this.botaopi);
             this.Controls.Add(this.botao1divididoporx);
             this.Controls.Add(this.botaosqrt);
@@ -351,8 +350,11 @@ namespace Calculadora
             this.Controls.Add(this.lblOperacao);
             this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.pictureBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Divirta-se";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
